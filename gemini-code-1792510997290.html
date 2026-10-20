@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume - ฐิรดา ตรีสุวรรณพันธ์</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Sukhumvit Set', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1e3c72;
+            border-bottom: 2px solid #e0e6ed;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .profile-stmt {
+            background-color: #f8fafc;
+            border-left: 4px solid #2a5298;
+            padding: 15px 20px;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 2px solid #2a5298;
+        }
+
+        .timeline-item h3 {
+            font-size: 1.1rem;
+            color: #222;
+        }
+
+        .timeline-item .date {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        ul.tags {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        ul.tags li {
+            background: #eef2f7;
+            color: #1e3c72;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Header: ชื่อ และ ที่อยู่/ช่องทางติดต่อ -->
+        <header>
+            <h1>ฐิรดา ตรีสุวรรณพันธ์</h1>
+            <p>📍 กรุงเทพมหานคร, ประเทศไทย</p>
+            <p>📧 Email: thirada.t@example.com | 📞 Tel: 08X-XXX-XXXX</p>
+        </header>
+
+        <div class="content">
+            <!-- 1. ข้อความแนะนำตัว (Profile Statement) -->
+            <section>
+                <h2>Profile Statement</h2>
+                <div class="profile-stmt">
+                    "A dedicated university student with a strong passion for continuous learning and professional development. Possesses excellent communication and teamworking skills, with a can-do attitude towards solving problems and achieving goals."
+                </div>
+            </section>
+
+            <!-- 2. ประสบการณ์ทำงาน / กิจกรรม (Work Experience) -->
+            <section>
+                <h2>Work & Activity Experience</h2>
+                <div class="timeline-item">
+                    <h3>Student Committee / Activity Staff</h3>
+                    <div class="date">2023 – Present</div>
+                    <p>• Coordinated university events and managed communication within project teams.</p>
+                    <p>• Applied critical thinking and problem-solving skills in group tasks.</p>
+                </div>
+            </section>
+
+            <!-- 3. การศึกษา (Education) -->
+            <section>
+                <h2>Education</h2>
+                <div class="timeline-item">
+                    <h3>Bachelor's Degree</h3>
+                    <div class="date">University Name | 2022 – Present</div>
+                    <p>Major: [ใส่สาขาวิชาที่เรียน]</p>
+                </div>
+            </section>
+
+            <!-- 4. ความสนใจ/กิจกรรมยามว่าง (Interests/Hobbies) -->
+            <section>
+                <h2>Interests & Hobbies</h2>
+                <ul class="tags">
+                    <li>🌐 Web Development & AI Tools</li>
+                    <li>🗣️ Business English & Languages</li>
+                    <li>📸 Photography</li>
+                    <li>🎧 Music & Podcasts</li>
+                    <li>✈️ Traveling</li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>© Thirada Treesuwannaphan - Online Resume on GitHub Pages</p>
+        </footer>
+    </div>
+
+</body>
+</html>
